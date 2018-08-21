@@ -10,5 +10,5 @@
 #' @export
 #' @examples
 #' # Not run:
-#' 
+#'
 '%nin%' <- function(x,y) !('%in%'(x,y))
