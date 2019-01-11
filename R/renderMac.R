@@ -15,5 +15,5 @@
 renderMac <- function(filename){
   if(getwd() %in% "/Users/mollyolson") stop("Must set working directory to file location")
   if(filename %nin% list.files()) stop("File doesn't exist in working directory")
-  rmarkdown::render(input = paste0(getwd(),"/",filename), output_dir = "~/Desktop", intermediates_dir = "~/Desktop")
+  rmarkdown::render(input = paste0(getwd(),"/",filename), output_dir = "~/Desktop/ReportGeneration", intermediates_dir = "~/Desktop/ReportGeneration")
 }
